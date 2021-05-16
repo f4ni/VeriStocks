@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CryptoSwift (1.4.0)
+  - Kingfisher (6.3.0)
+  - SideMenu (6.5.0)
+  - SnapKit (4.2.0)
+  - SwiftLint (0.43.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Charts
+  - CryptoSwift (~> 1.4.0)
+  - Kingfisher (~> 6.0)
+  - SideMenu
+  - SnapKit (~> 4.0)
+  - SwiftLint
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - CryptoSwift
+    - Kingfisher
+    - SideMenu
+    - SnapKit
+    - SwiftLint
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 4b3d49f8485ffe0200fe342f00e2b3e96a7941f0
+
+COCOAPODS: 1.10.0

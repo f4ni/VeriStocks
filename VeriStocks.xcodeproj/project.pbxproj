@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050F059B44848359BA0E9854 /* Pods_VeriStocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34910A18F6502F742BB55D1 /* Pods_VeriStocks.framework */; };
+		4A075619264E9C5800A50516 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A075618264E9C5800A50516 /* Model.swift */; };
+		4A07561B264EBAEC00A50516 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A07561A264EBAEC00A50516 /* Extensions.swift */; };
+		4A07561E264F10C500A50516 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A07561D264F10C500A50516 /* ViewModel.swift */; };
+		4A075622264F12EA00A50516 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A075621264F12EA00A50516 /* DetailViewController.swift */; };
+		4A075624264F194F00A50516 /* StockListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A075623264F194F00A50516 /* StockListTableViewCell.swift */; };
+		4A075626264FD9C500A50516 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A075625264FD9C500A50516 /* SideMenuViewController.swift */; };
+		4A43595D26511DB4004B71A2 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A43595C26511DB4004B71A2 /* CustomNavigationController.swift */; };
+		4A71BA68264CDB0300F68184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71BA67264CDB0300F68184 /* AppDelegate.swift */; };
+		4A71BA6A264CDB0300F68184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71BA69264CDB0300F68184 /* SceneDelegate.swift */; };
+		4A71BA6C264CDB0300F68184 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71BA6B264CDB0300F68184 /* MainViewController.swift */; };
+		4A71BA71264CDB0400F68184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A71BA70264CDB0400F68184 /* Assets.xcassets */; };
+		4A71BA74264CDB0400F68184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A71BA72264CDB0400F68184 /* LaunchScreen.storyboard */; };
+		4A71BA98264CDB2600F68184 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71BA97264CDB2600F68184 /* APIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A71BA7B264CDB0400F68184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A71BA5C264CDB0300F68184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A71BA63264CDB0300F68184;
+			remoteInfo = StockExcange;
+		};
+		4A71BA86264CDB0400F68184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A71BA5C264CDB0300F68184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A71BA63264CDB0300F68184;
+			remoteInfo = StockExcange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40CB6C900FC6A254D25A5C03 /* Pods-VeriStocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriStocks.debug.xcconfig"; path = "Target Support Files/Pods-VeriStocks/Pods-VeriStocks.debug.xcconfig"; sourceTree = "<group>"; };
+		4A075618264E9C5800A50516 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4A07561A264EBAEC00A50516 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A07561D264F10C500A50516 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4A075621264F12EA00A50516 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4A075623264F194F00A50516 /* StockListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListTableViewCell.swift; sourceTree = "<group>"; };
+		4A075625264FD9C500A50516 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4A43595C26511DB4004B71A2 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		4A71BA64264CDB0300F68184 /* VeriStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeriStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71BA67264CDB0300F68184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A71BA69264CDB0300F68184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A71BA6B264CDB0300F68184 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4A71BA70264CDB0400F68184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A71BA73264CDB0400F68184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A71BA75264CDB0400F68184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A71BA7A264CDB0400F68184 /* VeriStocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriStocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71BA85264CDB0400F68184 /* VeriStocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriStocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71BA97264CDB2600F68184 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		90F0A0C9E67D74315E1C6F51 /* Pods-VeriStocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriStocks.release.xcconfig"; path = "Target Support Files/Pods-VeriStocks/Pods-VeriStocks.release.xcconfig"; sourceTree = "<group>"; };
+		D34910A18F6502F742BB55D1 /* Pods_VeriStocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeriStocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A71BA61264CDB0300F68184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F059B44848359BA0E9854 /* Pods_VeriStocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA77264CDB0400F68184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA82264CDB0400F68184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2C0B93068026B1BBFAD645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34910A18F6502F742BB55D1 /* Pods_VeriStocks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A07561C264F101800A50516 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A075618264E9C5800A50516 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A07561F264F10EF00A50516 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A07561D264F10C500A50516 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A075620264F119100A50516 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A71BA6B264CDB0300F68184 /* MainViewController.swift */,
+				4A075621264F12EA00A50516 /* DetailViewController.swift */,
+				4A075625264FD9C500A50516 /* SideMenuViewController.swift */,
+				4A43595C26511DB4004B71A2 /* CustomNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A43595B2650F7DE004B71A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A075623264F194F00A50516 /* StockListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A43595E265148EA004B71A2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4A43595F26514909004B71A2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A07561A264EBAEC00A50516 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4A71BA5B264CDB0300F68184 = {
+			isa = PBXGroup;
+			children = (
+				4A71BA66264CDB0300F68184 /* VeriStocks */,
+				4A71BA65264CDB0300F68184 /* Products */,
+				74C115678D4A85BD28F7FC79 /* Pods */,
+				3D2C0B93068026B1BBFAD645 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A71BA65264CDB0300F68184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A71BA64264CDB0300F68184 /* VeriStocks.app */,
+				4A71BA7A264CDB0400F68184 /* VeriStocksTests.xctest */,
+				4A71BA85264CDB0400F68184 /* VeriStocksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A71BA66264CDB0300F68184 /* VeriStocks */ = {
+			isa = PBXGroup;
+			children = (
+				4A43595F26514909004B71A2 /* Extension */,
+				4A43595E265148EA004B71A2 /* New Group */,
+				4A43595B2650F7DE004B71A2 /* View */,
+				4A075620264F119100A50516 /* Controller */,
+				4A07561F264F10EF00A50516 /* ViewModel */,
+				4A07561C264F101800A50516 /* Model */,
+				4A71BA99264CDB2E00F68184 /* Services */,
+				4A71BA67264CDB0300F68184 /* AppDelegate.swift */,
+				4A71BA69264CDB0300F68184 /* SceneDelegate.swift */,
+				4A71BA70264CDB0400F68184 /* Assets.xcassets */,
+				4A71BA72264CDB0400F68184 /* LaunchScreen.storyboard */,
+				4A71BA75264CDB0400F68184 /* Info.plist */,
+			);
+			path = VeriStocks;
+			sourceTree = "<group>";
+		};
+		4A71BA99264CDB2E00F68184 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A71BA97264CDB2600F68184 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74C115678D4A85BD28F7FC79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40CB6C900FC6A254D25A5C03 /* Pods-VeriStocks.debug.xcconfig */,
+				90F0A0C9E67D74315E1C6F51 /* Pods-VeriStocks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A71BA63264CDB0300F68184 /* VeriStocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A71BA8E264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocks" */;
+			buildPhases = (
+				02EC000DD3AD74A713E11042 /* [CP] Check Pods Manifest.lock */,
+				4A71BA60264CDB0300F68184 /* Sources */,
+				4A71BA61264CDB0300F68184 /* Frameworks */,
+				4A71BA62264CDB0300F68184 /* Resources */,
+				E3D8395671297A204E9E2A5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeriStocks;
+			productName = StockExcange;
+			productReference = 4A71BA64264CDB0300F68184 /* VeriStocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A71BA79264CDB0400F68184 /* VeriStocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A71BA91264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocksTests" */;
+			buildPhases = (
+				4A71BA76264CDB0400F68184 /* Sources */,
+				4A71BA77264CDB0400F68184 /* Frameworks */,
+				4A71BA78264CDB0400F68184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A71BA7C264CDB0400F68184 /* PBXTargetDependency */,
+			);
+			name = VeriStocksTests;
+			productName = StockExcangeTests;
+			productReference = 4A71BA7A264CDB0400F68184 /* VeriStocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A71BA84264CDB0400F68184 /* VeriStocksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A71BA94264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocksUITests" */;
+			buildPhases = (
+				4A71BA81264CDB0400F68184 /* Sources */,
+				4A71BA82264CDB0400F68184 /* Frameworks */,
+				4A71BA83264CDB0400F68184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A71BA87264CDB0400F68184 /* PBXTargetDependency */,
+			);
+			name = VeriStocksUITests;
+			productName = StockExcangeUITests;
+			productReference = 4A71BA85264CDB0400F68184 /* VeriStocksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A71BA5C264CDB0300F68184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4A71BA63264CDB0300F68184 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4A71BA79264CDB0400F68184 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4A71BA63264CDB0300F68184;
+					};
+					4A71BA84264CDB0400F68184 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4A71BA63264CDB0300F68184;
+					};
+				};
+			};
+			buildConfigurationList = 4A71BA5F264CDB0300F68184 /* Build configuration list for PBXProject "VeriStocks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A71BA5B264CDB0300F68184;
+			productRefGroup = 4A71BA65264CDB0300F68184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A71BA63264CDB0300F68184 /* VeriStocks */,
+				4A71BA79264CDB0400F68184 /* VeriStocksTests */,
+				4A71BA84264CDB0400F68184 /* VeriStocksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A71BA62264CDB0300F68184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A71BA74264CDB0400F68184 /* LaunchScreen.storyboard in Resources */,
+				4A71BA71264CDB0400F68184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA78264CDB0400F68184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA83264CDB0400F68184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02EC000DD3AD74A713E11042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeriStocks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D8395671297A204E9E2A5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriStocks/Pods-VeriStocks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriStocks/Pods-VeriStocks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeriStocks/Pods-VeriStocks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A71BA60264CDB0300F68184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A43595D26511DB4004B71A2 /* CustomNavigationController.swift in Sources */,
+				4A71BA6C264CDB0300F68184 /* MainViewController.swift in Sources */,
+				4A71BA68264CDB0300F68184 /* AppDelegate.swift in Sources */,
+				4A71BA98264CDB2600F68184 /* APIService.swift in Sources */,
+				4A07561B264EBAEC00A50516 /* Extensions.swift in Sources */,
+				4A075619264E9C5800A50516 /* Model.swift in Sources */,
+				4A71BA6A264CDB0300F68184 /* SceneDelegate.swift in Sources */,
+				4A075624264F194F00A50516 /* StockListTableViewCell.swift in Sources */,
+				4A07561E264F10C500A50516 /* ViewModel.swift in Sources */,
+				4A075626264FD9C500A50516 /* SideMenuViewController.swift in Sources */,
+				4A075622264F12EA00A50516 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA76264CDB0400F68184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A71BA81264CDB0400F68184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A71BA7C264CDB0400F68184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A71BA63264CDB0300F68184 /* VeriStocks */;
+			targetProxy = 4A71BA7B264CDB0400F68184 /* PBXContainerItemProxy */;
+		};
+		4A71BA87264CDB0400F68184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A71BA63264CDB0300F68184 /* VeriStocks */;
+			targetProxy = 4A71BA86264CDB0400F68184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A71BA72264CDB0400F68184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A71BA73264CDB0400F68184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A71BA8C264CDB0400F68184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A71BA8D264CDB0400F68184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A71BA8F264CDB0400F68184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CB6C900FC6A254D25A5C03 /* Pods-VeriStocks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.Stocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A71BA90264CDB0400F68184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F0A0C9E67D74315E1C6F51 /* Pods-VeriStocks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.Stocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A71BA92264CDB0400F68184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.VeriStocksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriStocks.app/VeriStocks";
+			};
+			name = Debug;
+		};
+		4A71BA93264CDB0400F68184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.VeriStocksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriStocks.app/VeriStocks";
+			};
+			name = Release;
+		};
+		4A71BA95264CDB0400F68184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.VeriStocksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriStocks;
+			};
+			name = Debug;
+		};
+		4A71BA96264CDB0400F68184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664UK652FK;
+				INFOPLIST_FILE = VeriStocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f4ni.VeriStocksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriStocks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A71BA5F264CDB0300F68184 /* Build configuration list for PBXProject "VeriStocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71BA8C264CDB0400F68184 /* Debug */,
+				4A71BA8D264CDB0400F68184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A71BA8E264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71BA8F264CDB0400F68184 /* Debug */,
+				4A71BA90264CDB0400F68184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A71BA91264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71BA92264CDB0400F68184 /* Debug */,
+				4A71BA93264CDB0400F68184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A71BA94264CDB0400F68184 /* Build configuration list for PBXNativeTarget "VeriStocksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71BA95264CDB0400F68184 /* Debug */,
+				4A71BA96264CDB0400F68184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A71BA5C264CDB0300F68184 /* Project object */;
+}
